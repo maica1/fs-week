@@ -19,7 +19,10 @@
 		"ghcr.io/devcontainers-community/npm-features/typescript:1": {},
 		"ghcr.io/hspaans/devcontainer-features/ansible-lint:1": {},
 		"ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {},
-		"ghcr.io/gvatsal60/dev-container-features/sonarlint:1": {}
+		"ghcr.io/gvatsal60/dev-container-features/sonarlint:1": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:1": {
+			"moby": true
+		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
