@@ -20,7 +20,7 @@
 		"ghcr.io/hspaans/devcontainer-features/ansible-lint:1": {},
 		"ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {},
 		"ghcr.io/gvatsal60/dev-container-features/sonarlint:1": {},
-		"ghcr.io/devcontainers/features/docker-in-docker:1": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {
 			"moby": true
 		}
 	}
