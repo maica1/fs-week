@@ -14,7 +14,22 @@
 		"ghcr.io/devcontainers/features/common-utils:2": {},
 		"ghcr.io/prulloac/devcontainer-features/pre-commit:1": {}
 	},
-	"forwardPorts": [3000, 5432]
+	"forwardPorts": [3000, 5432],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bradlc.vscode-tailwindcss",
+				"github.vscode-github-actions",
+				"GitHub.vscode-pull-request-github",
+				"ms-azuretools.vscode-docker",
+				"Blackboxapp.blackbox",
+				"eamodio.gitlens",
+				"DavidAnson.vscode-markdownlint",
+				"timonwong.shellcheck",
+				"dbaeumer.vscode-eslint"
+			]
+		}
+	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// This can be used to network with other containers or with the host.
