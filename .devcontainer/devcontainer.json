@@ -1,5 +1,3 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node-postgres
 {
 	"name": "FS-week next.js postgres",
 	"dockerComposeFile": "docker-compose.yml",
@@ -19,12 +17,14 @@
 		"ghcr.io/devcontainers-community/npm-features/typescript:1": {},
 		"ghcr.io/hspaans/devcontainer-features/ansible-lint:1": {},
 		"ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {},
-		"ghcr.io/gvatsal60/dev-container-features/sonarlint:1": {}
-	}
+		"ghcr.io/gvatsal60/dev-container-features/sonarlint:1": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/prulloac/devcontainer-features/pre-commit:1": {}
+	},
+	"forwardPorts": [3000, 5432]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// This can be used to network with other containers or with the host.
-	// "forwardPorts": [3000, 5432],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",

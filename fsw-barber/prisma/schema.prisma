@@ -16,7 +16,7 @@ model User {
   phones    String[]
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
-  Booking   Booking[]
+  bookings   Booking[]
 }
 
 model Barbershop {
@@ -41,7 +41,7 @@ model BarbershopService {
   barbershop   Barbershop @relation(fields: [barbershopId], references: [id])
   createdAt    DateTime   @default(now())
   updatedAt    DateTime   @updatedAt
-  Booking      Booking[]
+  bookings      Booking[]
 }
 
 model Booking {
